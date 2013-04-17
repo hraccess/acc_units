@@ -1,0 +1,13 @@
+name = Access Units
+description = Provides the Access Units taxonomy
+core = 7.x
+package = Humanitarian Access
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = feeds
+dependencies[] = taxonomy
+features[ctools][] = feeds:feeds_importer_default:1
+features[features_api][] = api:1
+features[feeds_importer][] = units
+features[field_base][] = field_unit
+features[taxonomy][] = units
