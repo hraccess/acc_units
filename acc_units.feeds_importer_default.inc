@@ -23,6 +23,7 @@ function acc_units_feeds_importer_default() {
         'auto_detect_feeds' => FALSE,
         'use_pubsubhubbub' => FALSE,
         'designated_hub' => '',
+        'request_timeout' => NULL,
       ),
     ),
     'parser' => array(
@@ -56,6 +57,7 @@ function acc_units_feeds_importer_default() {
         'update_existing' => '2',
         'input_format' => 'plain_text',
         'skip_hash_check' => 0,
+        'bundle' => 'units',
       ),
     ),
     'content_type' => '',
