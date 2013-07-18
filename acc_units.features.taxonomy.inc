@@ -9,9 +9,9 @@
  */
 function acc_units_taxonomy_default_vocabularies() {
   return array(
-    'units' => array(
-      'name' => 'Units',
-      'machine_name' => 'units',
+    'acc_units' => array(
+      'name' => 'Access Units',
+      'machine_name' => 'acc_units',
       'description' => '',
       'hierarchy' => 0,
       'module' => 'taxonomy',
