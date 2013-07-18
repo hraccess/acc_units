@@ -10,5 +10,5 @@ dependencies[] = taxonomy
 features[ctools][] = feeds:feeds_importer_default:1
 features[features_api][] = api:1
 features[feeds_importer][] = acc_units
-features[field_base][] = field_unit
+features[field_base][] = field_acc_unit
 features[taxonomy][] = acc_units
