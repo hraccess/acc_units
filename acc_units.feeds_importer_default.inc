@@ -13,9 +13,9 @@ function acc_units_feeds_importer_default() {
   $feeds_importer = new stdClass();
   $feeds_importer->disabled = FALSE; /* Edit this to true to make a default feeds_importer disabled initially */
   $feeds_importer->api_version = 1;
-  $feeds_importer->id = 'units';
+  $feeds_importer->id = 'acc_units';
   $feeds_importer->config = array(
-    'name' => 'CSV Units',
+    'name' => 'CSV Access Units',
     'description' => 'Import Units of imcact taxonomy from CVS file for Access Humanitarian project',
     'fetcher' => array(
       'plugin_key' => 'FeedsHTTPFetcher',
@@ -67,7 +67,7 @@ function acc_units_feeds_importer_default() {
     'import_on_create' => 1,
     'process_in_background' => 1,
   );
-  $export['units'] = $feeds_importer;
+  $export['acc_units'] = $feeds_importer;
 
   return $export;
 }
