@@ -57,7 +57,7 @@ function acc_units_feeds_importer_default() {
         'update_existing' => '2',
         'input_format' => 'plain_text',
         'skip_hash_check' => 0,
-        'bundle' => 'units',
+        'bundle' => 'acc_units',
       ),
     ),
     'content_type' => '',
