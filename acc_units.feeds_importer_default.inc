@@ -53,6 +53,11 @@ function acc_units_feeds_importer_default() {
             'target' => 'parent',
             'unique' => FALSE,
           ),
+          3 => array(
+            'source' => 'UUID',
+            'target' => 'uuid:uuid',
+            'unique' => FALSE,
+          ),
         ),
         'update_existing' => '2',
         'input_format' => 'plain_text',
