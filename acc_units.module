@@ -5,3 +5,7 @@
  */
 
 include_once 'acc_units.features.inc';
+
+function acc_units_cron() {
+    humanitarianresponse_core_feeds_check('acc_units', 'http://terms.humanitarianresponse.info/units.csv');
+}
